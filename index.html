@@ -3,12 +3,58 @@
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
+  <link rel="stylesheet" media="all" href="style.css" />
 </head>
 <body>
-  <div>
-    <button class="pay-button">Pay</button>
-    <div id="status"></div>
-  </div>
+	<div class="area" >
+		<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+		</ul>
+	  </div >
+  
+	  <div class="context">
+		<h1><span class="k">K</span><span class="r">r</span><span class="y">y</span><span class="p">p</span><span class="t">t</span><span class="o">o</span><span class="u">U</span><span class="p">P</span><span class="s">S</span></h1>
+
+        <h2>
+			Al dar clic en el botón de comprar, serás el dueño de esta obra de arte digital. 
+			<br><br>
+			Este NFT ha sido creado con tecnología blockchain, lo que garantiza su autenticidad y exclusividad. 
+		</h2>
+		<br><br>
+		<h3>
+			¡No pierdas la oportunidad de tener esta pieza única en tu poder!
+		</h3>
+
+        <br><br>
+		<div  align="center">
+			<button class="pay-button">Comprar con MetaMask</button>
+			<div id="status"></div>
+		</div>
+
+
+</div>
+
   <script type="text/javascript">
     window.addEventListener('load', async () => {
       if (window.ethereum) {
